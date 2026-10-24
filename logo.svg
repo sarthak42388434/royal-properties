@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f0c060"/>
+      <stop offset="50%" style="stop-color:#c9a84c"/>
+      <stop offset="100%" style="stop-color:#9b7a2e"/>
+    </linearGradient>
+    <linearGradient id="redGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#d4434a"/>
+      <stop offset="100%" style="stop-color:#8b1a1f"/>
+    </linearGradient>
+  </defs>
+  <circle cx="100" cy="100" r="95" fill="url(#goldGrad)"/>
+  <circle cx="100" cy="100" r="80" fill="#fdf6e3"/>
+  <path id="topArc" d="M 30,100 a 70,70 0 1,1 140,0" fill="none"/>
+  <text font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#8b1a1f" letter-spacing="3">
+    <textPath href="#topArc" startOffset="50%" text-anchor="middle">ROYAL PROPERTIES</textPath>
+  </text>
+  <path id="bottomArc" d="M 30,100 a 70,70 0 0,0 140,0" fill="none"/>
+  <text font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#8b1a1f" letter-spacing="3">
+    <textPath href="#bottomArc" startOffset="50%" text-anchor="middle">KANPUR</textPath>
+  </text>
+  <text x="100" y="125" text-anchor="middle" font-family="Georgia, serif" font-size="72" font-weight="bold" fill="url(#redGrad)">RP</text>
+  <circle cx="40" cy="100" r="4" fill="#8b1a1f"/>
+  <circle cx="160" cy="100" r="4" fill="#8b1a1f"/>
+</svg>
